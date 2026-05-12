@@ -38,5 +38,6 @@ for (const file of eventFiles) {
 }
 
 require('./deploy-commands.js');
+//index.jsを起動するとコマンドもアップデートしてくれるだけなので不要な方は消すかコマンドアウトしておいてください
 
 client.login(token);
