@@ -3,7 +3,7 @@ const path = require('node:path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const token = 'TOKENを入力';
 
-```
+/*
 tokenは人に知られてはいけないものなので人に絶対見せない自信がある場合は直接入れてください。
 知られたくない場合は各々でいろいろ試行錯誤してみてください。
 せめてもの抵抗で直接入れたくない場合は
@@ -15,7 +15,7 @@ config.jsonを作成し、
 }
 上記のものを記入したうえで const token =....3種類をを削除し、下記に書き換えてください
 const { token } = require('./config.json');
-```
+*/
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.MessageContent] });
 
