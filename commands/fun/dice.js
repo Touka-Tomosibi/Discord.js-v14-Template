@@ -8,6 +8,6 @@ module.exports = {
 
         const random = Math.floor( Math.random() * 6) + 1;
 
-        await interaction.reply(random);
+        await interaction.reply(`${random}`);
 	},
 };
