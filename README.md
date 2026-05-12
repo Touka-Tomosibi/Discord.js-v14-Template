@@ -55,7 +55,7 @@ Discord.jsの公式ガイドに準拠した内容なため、公式ガイドを�
 
 ## コードを打つまで
 ### BOTの外側を作成する
-[Discord Developer Portal](https://discord.com/developers)にアクセスする。
+[Discord Developer Portal](https://discord.com/developers/home)にアクセスする。
 
 Discordにログインする。(いつも使用しているもので大丈夫です)
 
