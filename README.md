@@ -108,7 +108,7 @@ commands/fun/にのみ.reiouyou.mdというちょっとした応用的な要素�
 
 <br>
 
-###起動
+### 起動
 
 botのプログラムが入っているファイルに移動済みのcmdでnode index.jsで起動
 
