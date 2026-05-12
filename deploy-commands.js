@@ -4,9 +4,9 @@ const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const token = DISCORD_BOT_TOKEN;
-const clientId = CLIENT_ID;
-const guildId = GUILD_ID;
+const token = 'TOKENを入力';
+const clientId = 'アプリIDを入力';
+const guildId = 'サーバーIDを入力';
 /*
 tokenは人に知られてはいけないものなので人に絶対見せない自信がある場合は直接入れてください。
 知られたくない場合は各々でいろいろ試行錯誤してみてください。
