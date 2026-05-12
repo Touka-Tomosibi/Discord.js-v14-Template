@@ -19,6 +19,6 @@ module.exports = {
   
     var dice = Math.floor(Math.random() * num) +1;
     
-	  await interaction.reply(dice);
+	  await interaction.reply(`${dice}`);
 	},
 };
