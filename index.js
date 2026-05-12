@@ -14,7 +14,7 @@ config.jsonを作成し、
 	"guildid" : "サーバーIDを入力"
 }
 上記のものを記入したうえで const token =....3種類をを削除し、下記に書き換えてください
-const { token, clientId, guildId } = require('./config.json');
+const { token } = require('./config.json');
 ```
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.MessageContent] });
