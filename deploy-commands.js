@@ -3,9 +3,23 @@
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
-const token = process.env.DISCORD_BOT_TOKEN;
-const clientId = process.env.CLIENT_ID;
-const guildId = process.env.GUILD_ID;
+
+const token = DISCORD_BOT_TOKEN;
+const clientId = CLIENT_ID;
+const guildId = GUILD_ID;
+/*
+tokenは人に知られてはいけないものなので人に絶対見せない自信がある場合は直接入れてください。
+知られたくない場合は各々でいろいろ試行錯誤してみてください。
+せめてもの抵抗で直接入れたくない場合は
+config.jsonを作成し、
+{
+	"token" : "TOKENを入力",
+	"clientId" : "アプリIDを入力",
+	"guildid" : "サーバーIDを入力"
+}
+上記のものを記入したうえで const token =....3種類をを削除し、下記に書き換えてください
+const { token, clientId, guildId } = require('./config.json');
+*/
 
 const commands = [];
 
