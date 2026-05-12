@@ -7,7 +7,7 @@ module.exports = {
         
         if (message.content.startsWith('テンプレートを教えて')) { 
             
-            await message.channel.send('');//送信するメッセージ
+            await message.channel.send('https://github.com/Touka-Tomosibi/Discord.js-v14-Template');
             
          }
 	},
