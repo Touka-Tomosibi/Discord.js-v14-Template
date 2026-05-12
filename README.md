@@ -99,6 +99,10 @@ cmdにて作成したフォルダに移動する。
 ### コードを書く
 上記の[テンプレートに入っているもの](https://github.com/Touka-Tomosibi/Discord.js-v14-Template/blob/main/README.md#%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E5%85%A5%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%82%E3%81%AE)にて必須と書かれたものと同じものを作成し、中身をコピー&ペーストする
 
+commands/fun/とevents/の.rei.mdにてコピペ用のコードとちょっとした解説が書いてあります。
+
+commands/fun/にのみ.reiouyou.mdというちょっとした応用的な要素が書いてあるものがあります。気になった人は見てください。
+
 <br>
 
 ## 最後に
