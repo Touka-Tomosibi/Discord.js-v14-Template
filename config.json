@@ -1,1 +1,5 @@
-
+{
+	"token" : "TOKENを入力",
+	"clientId" : "アプリIDを入力",
+	"guildid" : "サーバーIDを入力"
+}
