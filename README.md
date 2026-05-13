@@ -38,6 +38,9 @@ Discord.jsの公式ガイドに準拠した内容なため、公式ガイドを�
 1. **deploy-commands.js** 
 : 必須
 
+1. **config.json**
+: 任意
+
 1. events / **interactionCreate.js** , **ready.js**
 : 必須
 
