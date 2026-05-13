@@ -67,7 +67,7 @@ Discordにログインする。(いつも使用しているもので大丈夫で
 
 同ページ内にあるトークンの項目からtokenを作成し、自分で保管をする。
 
-BotページにてServer Members Intent, Message Content Intentを有効化する。
+Botページにて**Server Members Intent**, **Message Content Intent**を有効化する。
 
 OAuth2ページのOAuth2 URLジェネレーターにてリンクを作成してサーバーに追加する。
 
@@ -92,7 +92,7 @@ BOTのファイルを入れたいフォルダを作成する。
 cmdにて作成したフォルダに移動する。
 (例 : cd C:\bot)
 
-移動を確認したら、**npm init -y**と**npm i discord.js**を実行する。
+移動を確認したら、`npm init -y`と`npm i discord.js`を実行する。
 
 <br>
 
@@ -100,8 +100,9 @@ cmdにて作成したフォルダに移動する。
 
 index.jsとdeploy-commands.jsのtokenなどを書き換える。(それぞれに詳細が書いてあります)
 
-追記 events/の任意のやつらが働かないことを確認しました。
-調査中です
+~~追記 events/の任意のやつらが働かないことを確認しました。~~
+~~調査中です~~
+解決済み。index.jsの記入漏れでした。すでに変更済みです。(5/13)
 
 上記の[テンプレートに入っているもの](https://github.com/Touka-Tomosibi/Discord.js-v14-Template/blob/main/README.md#%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AB%E5%85%A5%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%82%E3%81%AE)にて必須と書かれたものと同じものを作成し、中身をコピー&ペーストする
 
@@ -113,7 +114,7 @@ commands/fun/にのみ.reiouyou.mdというちょっとした応用的な要素�
 
 ### 起動
 
-botのプログラムが入っているファイルに移動済みのcmdでnode index.jsで起動
+botのプログラムが入っているファイルに移動済みのcmdで`node index.js`で起動
 
 <br>
 
