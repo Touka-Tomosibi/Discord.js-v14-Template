@@ -13,7 +13,7 @@ config.jsonを作成し、
 	"clientId" : "アプリIDを入力",
 	"guildid" : "サーバーIDを入力"
 }
-上記のものを記入したうえで const token =....3種類をを削除し、下記に書き換えてください
+上記のものを記入したうえで const token =....をを削除し、下記に書き換えてください
 const { token } = require('./config.json');
 */
 
